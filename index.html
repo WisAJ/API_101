@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API_101</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #togg {
+            display: flex;
+            justify-content: center;
+        }
+
+        .fa {
+            font-size: 25px;
+            cursor: pointer; 
+            margin:1rem;
+        }
+
+        .fa:hover {
+            color: darkblue;
+        }
+
+        .qty1,.qty2 {
+            text-align: center;
+        } 
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="header">
+            <h1> Breaking Bad API</h1>
+        </div>
+        <br>
+        <div id="content">
+
+        </div>
+    </div>
+
+    <div id="togg">
+        <i id="toggle" onclick="myFunction1()" class="fa fa-thumbs-up"> Like
+            <div class="qty1">0</div>
+        </i>
+        <br>
+        <i id="toggle" onclick="myFunction2()" class="fa fa-thumbs-down"> Dislike
+            <div class="qty2">0</div>
+        </i>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
